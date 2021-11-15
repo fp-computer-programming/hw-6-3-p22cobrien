@@ -10,4 +10,5 @@ length = len(lst1)
 if question == "middle":
     print(lst1[1:length - 1])
 elif question == "end":
-    print(lst1[:1] + lst1[length:])
+    print(lst1[:1] + lst1[length - 1:])
+
